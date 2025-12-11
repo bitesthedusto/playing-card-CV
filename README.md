@@ -12,6 +12,26 @@ Once training was finished, I ran the model on validation and testing set images
 
 ## 2. Setup and Workflow
 
+- Python 3.11.13
 
 
-## Deliverables for `REPORT.md`
+**Download the project files containing the image datasets and the YOLO model**
+
+**Install Dependencies:**
+```bash pip install -r requirements.txt```
+
+## Data
+
+Dataset sourced from Roboflow: https://universe.roboflow.com/augmented-startups/playing-cards-ow27d
+
+## Config
+
+The dataset configuration is the standard yolov8 yaml format. 
+
+Modify path or add config with format .yaml in data_config
+
+sample: 
+
+## 3. Test Model
+
+In the .ipynb file, there is a cell at the bottom. Simply download an image you would like to test, and change the first string in results = model('IMAGE PATH', save=True, conf=0.5) to the path of the image you would like to test. After that, the model should output the resulting image and save it.

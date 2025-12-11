@@ -1,8 +1,11 @@
 # Project: Playing Card Detection and Recognition
 
-Private repo for Playing Card Detection and Recognition project for CS4337 Computer Vision
+![](https://github.com/user-attachments/assets/22b7913b-755a-4542-b8f8-e1389411d5fe)
+
 
 **Objective:** 
+
+Create a model that can take an input image and detect any playing cards in the image and their corresponding suits and ranks
 
 ## 1. Introdution
 

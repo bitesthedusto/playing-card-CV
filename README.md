@@ -30,7 +30,9 @@ The dataset configuration is the standard yolov8 yaml format.
 
 Modify path or add config with format .yaml in data_config
 
-sample: 
+sample: [data.yaml](Playing-Cards-1/data.yaml)
+
+
 
 ## 3. Test Model
 

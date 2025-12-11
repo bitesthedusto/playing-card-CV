@@ -32,7 +32,27 @@ Modify path or add config with format .yaml in data_config
 
 sample: [data.yaml](Playing-Cards-1/data.yaml)
 
+```
+train: train/images
+val: valid/images
+test: test/images
 
+names: 
+  0: 10C
+  1: 10D
+  2: 10H
+  3: 10S
+  4: 2C
+  5: 2D
+  6: 2H
+  7: 2S
+  8: 3C
+  9: 3D
+  10: 3H
+  11: 3S
+  12: 4C
+  13: 4D
+```
 
 ## 3. Test Model
 

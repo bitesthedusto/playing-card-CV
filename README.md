@@ -1,7 +1,7 @@
 # Project: Playing Card Detection and Recognition
 
 
-<img src="https://github.com/user-attachments/assets/22b7913b-755a-4542-b8f8-e1389411d5fe" width="300" /> | <img src="https://github.com/bitesthedusto/playing-card-CV/blob/main/runs/detect/val-predict/005177209_jpg.rf.70ec42efa5f0bc780712bb30511b95a5.jpg" width="300" />
+<img src="https://github.com/user-attachments/assets/0bf1f6d7-d96d-4880-bb4b-d3c3329c6652" width="300" /><img src="https://github.com/user-attachments/assets/22b7913b-755a-4542-b8f8-e1389411d5fe" width="300" />
 
 **Objective:** 
 

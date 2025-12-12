@@ -1,7 +1,7 @@
 # Project: Playing Card Detection and Recognition
 
-![](https://github.com/user-attachments/assets/22b7913b-755a-4542-b8f8-e1389411d5fe)
 
+<img src="https://github.com/user-attachments/assets/22b7913b-755a-4542-b8f8-e1389411d5fe" width="300" /> | <img src="https://github.com/bitesthedusto/playing-card-CV/blob/main/runs/detect/val-predict/005177209_jpg.rf.70ec42efa5f0bc780712bb30511b95a5.jpg" width="300" />
 
 **Objective:** 
 
@@ -57,6 +57,36 @@ names:
   13: 4D
 ```
 
+## Train
+
+```
+model = YOLO('yolov8n.pt')
+
+results = model.train(
+    data=os.path.join(dataset.location, 'data.yaml'),
+    epochs=50,
+    imgsz=640,
+    batch=16,
+    device=None,
+    pretrained=True,
+    optimizer='AdamW',
+    lr0=0.001
+)
+```
+
+
+| Models | precision | recall | mAP50 | mAP50:95 |
+| :--- | :---: | :---: | :---: | :---: |
+| yolov8s |	1.000 | 1.000 | 0.995 |	0.951 |
+
 ## 3. Test Model
 
 In the .ipynb file, there is a cell at the bottom. Simply download an image you would like to test, and change the first string in results = model('IMAGE PATH', save=True, conf=0.5) to the path of the image you would like to test. After that, the model should output the resulting image and save it.
+
+| Input Image | Output Image |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/b5aaaba4-95d3-435c-b733-b6462803f373" width="300" /> | <img src="https://github.com/user-attachments/assets/5690afb4-db24-44bd-8139-e901c772eca1" width="300" /> |
+
+
+
+
